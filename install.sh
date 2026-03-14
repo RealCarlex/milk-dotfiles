@@ -32,3 +32,7 @@ sudo systemctl enable quickshell.service
 chmod +x ~/.local/bin/*
 
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+echo All Done! Reboot your system.
+cd
+rm -rf yay milk-dotfiles
