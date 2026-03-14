@@ -12,6 +12,9 @@ mkdir .themes
 sudo mkdir /boot/grub/themes
 sudo mkdir /usr/share/sddm/themes
 mkdir Pictures
+cd Pictures
+mkdir Screenshots
+cd
 cd milk-dotfiles
 
 mv .config/* ~/.config/
