@@ -11,6 +11,7 @@ cd
 mkdir .themes
 sudo mkdir /boot/grub/themes
 sudo mkdir /usr/share/sddm/themes
+mkdir Pictures
 cd milk-dotfiles
 
 mv .config/* ~/.config/
@@ -20,6 +21,7 @@ mv .themes/* ~/.themes/
 mv boot/grub/themes/MilkGrub /boot/grub/themes/
 mv etc/* /etc/
 mv usr/share/sddm/themes/* /usr/share/sddm/themes/
+mv Pictures/* ~/Pictures/
 
 hyprpm update
 hyprpm add https://codeberg.org/zacoons/imgborders
