@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=sddm-milk-theme
+Description=sddm-milk-theme
+Author=carlex
+Website=https://github.com/RealCarlex/
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.0
+ConfigFile=theme.conf
+Screenshot=
+MainScript=Main.qml
+TranslationsDirectory=translations
+Theme-Id=sddm-milk-theme
+Theme-API=2.0
+QtVersion=6

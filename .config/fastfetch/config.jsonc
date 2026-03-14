@@ -1,0 +1,42 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": ".config/fastfetch/milkchan-pixelart.png --logo-type kitty-direct --logo-width 25 --logo-height 14",
+    "display": {
+        "separator": " ›  "
+    },
+    "modules": [
+	"break",
+        {
+            "type": "os",
+            "key": "OS  ",
+            "keyColor": "38;2;82;38;62",  // = color1
+        },
+        {
+            "type": "kernel",
+            "key": "KER ",
+            "keyColor": "38;2;102;38;62",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": "PKG ",
+            "keyColor": "38;2;82;38;62",
+        },
+        {
+            "type": "shell",
+            "key": "SH  ",
+            "keyColor": "38;2;102;38;62", 
+        },
+        {
+            "type": "terminal",
+            "key": "TER ",
+            "keyColor": "38;2;82;38;62",
+        },
+        {
+            "type": "wm",
+            "key": "WM  ",
+            "keyColor": "38;2;102;38;62", 
+        },
+        "break",
+    ]
+}

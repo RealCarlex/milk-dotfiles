@@ -1,0 +1,13 @@
+[color]
+background = '#0d0d14'
+foreground = '#ac9695'
+
+gradient = 1
+gradient_count = 4
+gradient_color_1 = '#ac9695'
+gradient_color_2 = '#52263e'
+gradient_color_3 = '#ac3231'
+gradient_color_4 = '#f14c4c'
+
+horizontal_gradient = 0
+blend_direction = 'up'

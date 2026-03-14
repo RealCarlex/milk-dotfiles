@@ -1,0 +1,76 @@
+configuration {
+    show-icons:                 true;
+    font:                       "BigBlueTermPlus Nerd Font 24";
+    drun-display-format:        "{name}";
+}
+
+* {
+    bg:          #0d0d14;
+    fg:          #52263e;
+    select-bg:   #ac3231;
+    select-fg:   #0d0d14;
+    border-col:  #ac3231;
+    
+    background-color: transparent;
+    text-color:       @fg;
+}
+
+window {
+    background-color: @bg;
+    border:           3px;
+    border-color:     @border-col;
+    border-radius:    0px;
+    width:            800px;
+}
+
+mainbox {
+    background-color: @bg;
+    children:         [ inputbar, listview ];
+    padding:          15px;
+}
+
+inputbar {
+    background-color: @bg;
+    children:         [ prompt, entry ];
+    padding:          10px;
+}
+
+prompt {
+    background-color: @bg;
+    text-color:       @select-bg;
+}
+
+entry {
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+listview {
+    background-color: @bg;
+    lines:            12;
+    scrollbar:        false;
+}
+
+element {
+    padding:          8px;
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+element normal.normal,
+element alternate.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+element selected.normal,
+element selected.urgent,
+element selected.active {
+    background-color: @select-bg;
+    text-color:       @select-fg;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
